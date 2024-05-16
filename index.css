@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Morning\ swim.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#container{
+    background-color: white;
+    width: 350px;
+    border-radius: 15px;
+    padding: 20px 30px;
+    box-shadow: 0 0 15px black;
+}
+
+#timer{
+    text-align: center;
+    font-size: 3rem;
+}
+
+button{
+    border: white 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+#play-btn{
+margin-right: 20px;
+font-size: 2rem;
+color: white;
+padding: 0 7px;
+background-color: orange;
+}
+
+#reset-btn{
+    margin-left: 20px;
+    font-size: 2rem;
+    background-color: red;
+    color: black;
+    padding: 0 7px;
+}
+
+#play-btn :active{
+    background-color: white;
+    color: orange;
+    
+}
+
+#reset-btn :active{
+    background-color: black;
+    color: red;
+    
+}
+
+#pause-btn{
+    margin-right: 20px;
+    font-size: 2rem;
+    color: white;
+    padding: 0 7px;
+}
